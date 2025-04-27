@@ -36,14 +36,14 @@
                     <li onclick="scrollToSection('contact')">Contacto</li>
                 </ul>
                 <div class="hireMe__button pt-4">
-                    <a href="mailTo:john@email.com" aria-label="Enviar mensaje al correo"
+                    <a href="mailTo:alexandertamashiro@gmail.com" aria-label="Enviar mensaje al correo"
                         class="cursor-pointer no-underline border-round-lg text-xl xl:text-sm">Contratame</a>
                 </div>
             </div>
         </nav>
     </header>
     <!--HOME PAGE -->
-    <div class="container">
+    <div style="margin-top: 50px;" class="container">
         <section id="home"
             class="home__page flex align-items-center justify-content-center xl\:justify-content-between grid grid-nogutter gap-4">
             <div class="left__content col-12 xl:col-6">
@@ -52,9 +52,9 @@
                         <p>Hola, Yo soy</p>
                     </div>
                 </div>
-                <h1 class="text-3xl sm:text-5xl md:text-7xl">Mr. John Walker</h1>
+                <h1 style="margin-bottom: 20px;" class="text-3xl sm:text-5xl md:text-7xl">Alexander Tamashiro</h1>
                 <p class="text-gray-500">
-                    Profesional en desarrollo web y diseñador UI/UX
+                    QA Tester y Estudiante de Programación
                 </p>
                 <div class="home__buttons flex align-items-center gap-2 mt-6">
                     <a href="./assets/CURRICULUM.pdf" aria-label="Descargar curriculum"
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class="right__content col-9 sm:col-6 xl:col-5">
-                <img src="./assets/foto-perfil.png" alt="Foto perfil" width="100" height="100">
+                <img style="border-radius: 250px; width: 350px;" src="assets/foto-perfil.jpeg" alt="Foto perfil" width="100" height="100">
             </div>
         </section>
         <!--ABOUT ME-->
@@ -72,23 +72,28 @@
             <div class="aboutMe__content min-h-full flex flex-column md:flex-row pt-8 md:pt-0">
                 <div class="aboutMe__info col-12 md:col-6 md:pr-6 pt-0">
                     <h1 class="text-3xl md:text-5xl">Sobre mí</h1>
-                    <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        em magni harum sit eum aperiam repellat, incidunt provident dolor laborum animi
-                        nam eaque nobis illo est. Qui culpa itaque enim aspernatur?</p>
+                    <p class="text-gray-500"> 
+                                                    Actualmente me encuentro trabajando como Tester QA y estudiando
+                            programación. Cuento con proyectos prácticos en C/C#, HTML, CSS, Javascript
+                            utilizando frameworks como Bootstrap, .net. Mi objetivo es consolidarme como
+                            Desarrollador, aprovechando mi experiencia en QA para crear software robusto y
+                            libre de errores. Comprometido con el aprendizaje continuo y la mejora de
+                            habilidades técnicas.
+                         </p>
                     <div class="knowledge flex flex-column gap-3 mt-5">
-                        <p>Wordpress 100%</p>
+                        <p>C++ / C # </p>
                         <div class="progress__bar progress__wordpress">
                             <span></span>
                         </div>
-                        <p>HTML 75%</p>
+                        <p>.NET framework</p>
                         <div class="progress__bar progress__html">
                             <span></span>
                         </div>
-                        <p>Angular 80%</p>
+                        <p>HTML/CSS/JS</p>
                         <div class="progress__bar progress__angular">
                             <span></span>
                         </div>
-                        <p>React Js 95%</p>
+                        <p>Bootstrap</p>
                         <div class="progress__bar progress__reactJs">
                             <span></span>
                         </div>
@@ -128,52 +133,78 @@
             <div class="services__card w-full grid grid-nogutter mt-7 gap-5">
                 <div class="card flex align-items-center col-12 sm:col-6 lg:col-4 gap-3 p-2">
                     <div class="service__logo flex align-items-center justify-content-center">
-                        <i class="fa-brands fa-html5"></i>
+                        <img src="assets/Cplusplus.png" alt="">
+                    </div>
+                    <div class="service__name">
+                        <p>C++</p>
+                    </div>
+                </div>
+                <div class="card flex align-items-center col-12 sm:col lg:col-4 gap-3 p-2">
+                    <div class="service__logo flex align-items-center justify-content-center ">
+                        <img src="assets/cSharp.png" alt="">
+                    </div>
+                    <div class="service__name">
+                        <p>C#</p>
+                    </div>
+                </div>
+                <div class="card flex align-items-center col-12 sm:col-6 md:col-3 lg:col gap-3 p-2">
+                    <div class="service__logo flex align-items-center justify-content-center ">
+                        <img src="assets/icons8-.net-framework-48.png" alt="">
+                    </div>
+                    <div class="service__name">
+                        <p>.Net</p>
+                    </div>
+                </div>
+                <div class="card flex align-items-center col-12 sm:col md:col lg:col-4 gap-3 p-2">
+                    <div class="service__logo flex align-items-center justify-content-center ">
+                        <img src="assets/icons8-html5-48.png" alt="">
                     </div>
                     <div class="service__name">
                         <p>HTML</p>
                     </div>
                 </div>
-                <div class="card flex align-items-center col-12 sm:col lg:col-4 gap-3 p-2">
-                    <div class="service__logo flex align-items-center justify-content-center ">
-                        <i class="fa-brands fa-wordpress"></i>
-                    </div>
-                    <div class="service__name">
-                        <p>Wordpress</p>
-                    </div>
-                </div>
-                <div class="card flex align-items-center col-12 sm:col-6 md:col-3 lg:col gap-3 p-2">
-                    <div class="service__logo flex align-items-center justify-content-center ">
-                        <i class="fa-brands fa-angular"></i>
-                    </div>
-                    <div class="service__name">
-                        <p>Angular</p>
-                    </div>
-                </div>
-                <div class="card flex align-items-center col-12 sm:col md:col lg:col-4 gap-3 p-2">
-                    <div class="service__logo flex align-items-center justify-content-center ">
-                        <i class="fa-brands fa-react"></i>
-                    </div>
-                    <div class="service__name">
-                        <p>React Js</p>
-                    </div>
-                </div>
                 <div class="card flex align-items-center col-12 sm:col-6 md:col-4 lg:col-4 gap-3 p-2">
                     <div class="service__logo flex align-items-center justify-content-center ">
-                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <img src="assets/icons8-css-48.png" alt="">
                     </div>
                     <div class="service__name">
-                        <p>Desarrollo Móvil</p>
+                        <p>CSS</p>
                     </div>
                 </div>
                 <div class="card flex align-items-center col-12 sm:col md:col-4 lg:col gap-3 p-2">
                     <div class="service__logo flex align-items-center justify-content-center ">
-                        <i class="fa-solid fa-code"></i>
+                        <img src="assets/icons8-js-48.png" alt="">
                     </div>
                     <div class="service__name">
-                        <p>Desarrollo web</p>
+                        <p>Javascript</p>
                     </div>
                 </div>
+
+                <div class="card flex align-items-center col-12 sm:col md:col lg:col-4 gap-3 p-2">
+                    <div class="service__logo flex align-items-center justify-content-center ">
+                        <img src="assets/icons8-bootstrap-48.png" alt="">
+                    </div>
+                    <div class="service__name">
+                        <p>Bootstrap</p>
+                    </div>
+                </div>
+                <div class="card flex align-items-center col-12 sm:col-6 md:col-4 lg:col-4 gap-3 p-2">
+                    <div class="service__logo flex align-items-center justify-content-center ">
+                        <img src="assets/icons8-git-48.png" alt="">
+                    </div>
+                    <div class="service__name">
+                        <p>Git</p>
+                    </div>
+                </div>
+                <div class="card flex align-items-center col-12 sm:col md:col-4 lg:col gap-3 p-2">
+                    <div class="service__logo flex align-items-center justify-content-center ">
+                        <img src="assets/icons8-github-48.png" alt="">
+                    </div>
+                    <div class="service__name">
+                        <p>Javascript</p>
+                    </div>
+                </div>
+
             </div>
         </section>
 
