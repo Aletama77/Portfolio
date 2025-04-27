@@ -271,23 +271,10 @@ body::-webkit-scrollbar-track {
     height: 100%;
     position: absolute;
 }
-.progress__wordpress span {
+.progress span {
     background-color: #ff4900;
     width: 100%;
 }
-.progress__html span {
-    background-color: #ff7004;
-    width: 75%;
-}
-.progress__angular span {
-    background-color: #ff9809;
-    width: 80%;
-}
-.progress__reactJs span {
-    background-color: #ff9809;
-    width: 95%;
-}
-
 /* ------- FREE LANCER -------- */
 
 .freelancer {
