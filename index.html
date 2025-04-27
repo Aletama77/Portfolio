@@ -268,14 +268,14 @@
                 <p>Auténtico e innovador</p>
                 <p>Desarrollo lo que necesitas, con un enfoque en usabilidad y rendimiento</p>
                 <div class="social__mediaIcons mt-5 flex lg:justify-content-center gap-3">
-                    <a href="https://www.facebook.com" target="_blank" aria-label="Ir a facebook">
-                        <i class="fa-brands fa-facebook"></i>
+                    <a href="https://wa.me/5491168606237" target="_blank" aria-label="Ir a facebook">
+                        <img src="assets/icons8-whatsapp-48.png" alt="icono whatsapp">
                     </a>
-                    <a href="https://www.instagram.com" target="_blank" aria-label="Ir a instagram">
-                        <i class="fa-brands fa-instagram"></i>
+                    <a href="https://github.com/Aletama77" target="_blank" aria-label="Ir a instagram">
+                        <img src="assets/icons8-github-48.png" alt="ícono de whatsapp">
                     </a>
                     <a href="https://www.linkedin.com/in/alexander-tamashiro?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="Ir a linkedin">
-                        <i class="fa-brands fa-linkedin-in"></i>
+                        <img src="assets/icons8-linkedin-48.png" alt="ícono de linkedin">
                     </a>
                 </div>
             </div>
@@ -300,7 +300,6 @@
                 <h3>Mis Servicios</h3>
                 <p>Desarrollo web</p>
                 <p>Desarrollo de Aplicaciones</p>
-                <p>Diseñador UI /UX</p>
             </div>
         </footer>
     </div>
@@ -313,15 +312,15 @@
     filterContainer.addEventListener("click", (event) => {
         if (event.target.classList.contains("filter-item")) {
             filterContainer.querySelector(".active").classList.remove("active");
-            event.target.classList.add("active")
-            const filterValue = event.target.getAttribute("data-filter")
+            event.target.classList.add("active");
+            const filterValue = event.target.getAttribute("data-filter");
             galleryItems.forEach(item => {
                 if (item.classList.contains(filterValue) || filterValue === "all") {
-                    item.classList.remove("hide")
-                    item.classList.add("show")
+                    item.classList.remove("hide");
+                    item.classList.add("show");
                 } else {
-                    item.classList.remove("show")
-                    item.classList.add("hide")
+                    item.classList.remove("show");
+                    item.classList.add("hide");
                 }
             })
         }
