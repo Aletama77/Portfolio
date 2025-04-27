@@ -84,8 +84,6 @@ body::-webkit-scrollbar-track {
 /**Responsive design navbar**/
 
 @media screen and (max-width: 1200px) {
-   
-    }
     .navbar {
         padding: 0 2rem;
     }
@@ -244,7 +242,6 @@ body::-webkit-scrollbar-track {
     .home__buttons a {
         padding: 1rem 1rem !important;
     }
-
 }
 @media screen and (max-width: 1200px) {
     .home__page{
