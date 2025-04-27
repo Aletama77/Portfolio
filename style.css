@@ -244,25 +244,11 @@ body::-webkit-scrollbar-track {
     .home__buttons a {
         padding: 1rem 1rem !important;
     }
-    .text-gray-500 {
-        text-align: center;
-        align-items: center;
-    }
-    .hireMe__button a {
-        width: 90%;
-    }
 
 }
 @media screen and (max-width: 1200px) {
     .home__page{
         padding-top: 10rem;
-    }
-    .text-gray-500 {
-        text-align: center;
-        align-items: center;
-    }
-    .hireMe__button a {
-        width: 90%;
     }
 }
 
